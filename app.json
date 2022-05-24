@@ -1,0 +1,11 @@
+{
+    "name": "siriapp",
+    "description": "test",
+    "keywords": [
+    ],
+    "env": {},
+    "website": "",
+    "repository": "",
+    "logo": "",
+    "stack": "container"
+}
