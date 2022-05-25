@@ -40,6 +40,8 @@ RUN apt-get -qqy update \
         firefox htop terminator gnupg2 software-properties-common sudo xterm \
     && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
     && apt install -qqy --no-install-recommends ./google-chrome-stable_current_amd64.deb \
+	&& wget https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb \
+    && apt install -qqy ./anydesk_6.1.1-1_amd64.deb \
     && adduser --disabled-password --gecos "" account \
     && usermod --password 12345678 account\
     && usermod -aG sudo account \
