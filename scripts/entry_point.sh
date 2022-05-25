@@ -18,7 +18,33 @@ Path=
 Terminal=false
 StartupNotify=true
 EOF
+cat << EOF >  /Desktop/Anydesk.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Anydesk
+Comment=Anydesk
+Exec=/usr/bin/anydesk
+Icon=anydesk
+Path=
+Terminal=false
+StartupNotify=true
+EOF
+cat << EOF >  /Desktop/qbittorrent.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=qbittorrent
+Comment=qbittorrent
+Exec=qbittorrent
+Icon=qbittorrent
+Path=
+Terminal=false
+StartupNotify=true
+EOF
 chmod +x /Desktop/Chromium.desktop
+chmod +x /Desktop/Anydesk.desktop
+chmod +x /Desktop/qbittorrent.desktop
 
 if ! whoami &> /dev/null; then
   if [ -w /etc/passwd ]; then
