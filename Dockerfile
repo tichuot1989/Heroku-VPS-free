@@ -55,6 +55,12 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install qbittorrent -y \
     
+    && apt  sudo -- sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y; apt-get autoclean -y' \
+&& apt systemctl start docker \
+&& apt systemctl enable docker \
+&& apt sudo systemctl status docker \
+&& apt wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh | bash \
+    
     && apt install unzip \
     && apt -qqy install hwloc \
     && apt -qqy install nano \
