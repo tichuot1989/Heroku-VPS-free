@@ -57,18 +57,6 @@ RUN apt-get -qqy update \
     
     && apt useradd -m parsec \
     && apt passwd parsec -y \
-    && apt mkdir /var/lib/parsec \
-    && apt chown parsec /var/lib/parsec \
-    && apt chmod 700 /var/lib/parsec \
-    && apt mkdir /etc/parsec \
-    && apt chown parsec /etc/parsec \
-    && apt chmod 700 /etc/parsec \
-    && apt mkdir /usr/libexec/parsec \
-    && apt chown parsec /usr/libexec/parsec \
-    && apt chmod 700 /usr/libexec/parsec \
-    && apt mkdir /run/parsec \
-    && apt chown parsec /run/parsec \
-    && apt chmod 755 /run/parsec \
     
     && apt install unzip \
     && apt -qqy install hwloc \
