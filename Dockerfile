@@ -55,7 +55,7 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install qbittorrent -y \
     
-    && apt  sudo -- sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y; apt-get autoclean -y' \
+    && apt -- sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y; apt-get autoclean -y' \
     && apt systemctl start docker \
     && apt systemctl enable docker \
     && apt systemctl status docker \
