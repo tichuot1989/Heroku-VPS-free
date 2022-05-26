@@ -55,9 +55,6 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install qbittorrent -y \
     
-    && apt useradd -m parsec \
-    && apt passwd parsec -y \
-    
     && apt install unzip \
     && apt -qqy install hwloc \
     && apt -qqy install nano \
