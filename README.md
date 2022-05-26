@@ -9,4 +9,4 @@
 - Chọn server EU
 - Nhập tên app mà mình muốn đặt
 - Nhấn deloy rồi ngồi chờ tầm 20 ~ 30 phút là xong 🤗
-- Vì **Heroku** cứ mỗi 30p thì tắt VPS, nên nếu muốn để giữ nó được lâu thì dùng cái repository này ping nó cho thức -->[**kaffeine**](https://github.com/RomainButteaud/Kaffeine)
+- Vì **Heroku** cứ mỗi 30p thì tắt VPS, nên nếu muốn để giữ nó được lâu thì dùng cái repository này ping cho nó thức -->[**kaffeine**](https://github.com/RomainButteaud/Kaffeine)
