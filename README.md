@@ -2,10 +2,6 @@
 
 ### **Các bước setup một VPS**
 - Chuẩn bị 1 tài khoản tại [**Github**](https://github.com/) và 1 tài khoản tại [**Heroku**](https://dashboard.heroku.com/)
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lebathang/vps)
-
-
 - Tiếp theo Fork lại cái repository của mình
      - Hoặc bạn có thể fork lại từ 1 bác moderator của 4rum **VOZ** có nick name là **Fioren** tại đây --> [**mayapp**](https://github.com/FiorenMas/mayapp) 
      - Mình khuyên là các bạn nên đổi tên cái repository vừa mới fork
