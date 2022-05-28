@@ -54,10 +54,6 @@ RUN apt-get -qqy update \
 	&& add-apt-repository ppa:qbittorrent-team/qbittorrent-stable \
     && apt update \
     && apt install qbittorrent -y \
-    
-    && apt update \
-    && apt install p7zip-full p7zip-rar -y \
-    
     && apt install unzip \
     && apt -qqy install hwloc \
     && apt -qqy install nano \
