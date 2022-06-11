@@ -42,6 +42,8 @@ RUN apt-get -qqy update \
     && apt install -qqy --no-install-recommends ./google-chrome-stable_current_amd64.deb \
 	&& wget https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb \
     && apt install -qqy ./anydesk_6.1.1-1_amd64.deb \
+	&& wget https://builds.parsecgaming.com/package/parsec-linux.deb \
+    && apt install -qqy ./parsec-linux.deb \
     && adduser --disabled-password --gecos "" account \
     && usermod --password 12345678 account\
     && usermod -aG sudo account \
