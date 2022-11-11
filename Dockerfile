@@ -57,7 +57,7 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install qbittorrent -y \
     && apt install unzip \
-    && apt install default-jre \
+    && apt install default-jre -y \
     && apt -qqy install hwloc \
     && apt -qqy install nano \
     && apt -qqy install openjdk-11-jdk \
