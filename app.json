@@ -5,7 +5,7 @@
     ],
     "env": {},
     "website": "",
-    "repository": "",
+    "repository": "[https://dashboard.heroku.com/new?template=https://github.com/tichuot1989/Heroku-VPS-free/myapp]",
     "logo": "",
     "stack": "container"
 }
