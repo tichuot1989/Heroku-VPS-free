@@ -8,7 +8,7 @@
     -  Ví dụ:`[https://dashboard.heroku.com/new?template=https://github.com/FiorenMas/myapp]`
 - <ins>Cách 2</ins>: Hoặc bạn cũng có thể click vào đây
 
-     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FiorenMas/Heroku-VPS)
+     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tichuot1989/Heroku-VPS-free/)
     - Dành cho người thích `mì ăn liền`, tuy nhiên cái repository mà bạn đang deloy trên **Heroku** là của mình chứ không phải của bạn nên bạn ko có quyền nào khác, còn nếu bạn làm theo <ins>cách 1</ins> thì cái repo là do bạn sở hữu nên bạn có quyền chỉnh sửa theo ý thích của bạn, và mình có thể sẽ bị xóa cái repo này trong 1 ngày nào đó, nên hãy tạo bản sao cho bạn
 - Chọn server EU
 - Nhập tên app mà mình muốn đặt
