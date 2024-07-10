@@ -4,8 +4,8 @@
 - Chuẩn bị 1 tài khoản tại [**Github**](https://github.com/) và 1 tài khoản tại [**Heroku**](https://dashboard.heroku.com/)
 - <ins>Cách 1</ins>: Fork lại cái repository này của mình 
 - Copy và Paste cái đường link của cái repository vừa mới fork và đổi tên đó vào đây 
-    -  `[https://dashboard.heroku.com/new?template=https://github.com/XXX tên user/Tên project](https://github.com/tichuot1989/Heroku-VPS-free)`
-    -  Ví dụ:`[https://dashboard.heroku.com/new?template=https://github.com/FiorenMas/myapp](https://github.com/tichuot1989/Heroku-VPS-free)`
+    -  `[https://dashboard.heroku.com/new?template=https://github.com/tichuot1989/Heroku-VPS-free]`
+    -  Ví dụ:`[https://dashboard.heroku.com/new?template=https://github.com/FiorenMas/myapp]`
 - <ins>Cách 2</ins>: Hoặc bạn cũng có thể click vào đây
 
      [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FiorenMas/Heroku-VPS)
